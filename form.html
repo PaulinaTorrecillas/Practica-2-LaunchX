@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <title>Pastelería Blinks</title>
+</head>
+
+<body>
+    <nav class="menuNavegacion">
+        <div class="mnvlogo">
+            <a class="nvlogo" href=""><img src="./imgs/logo.png" width="20%" height="20%"></a>
+        </div>
+        <div class="mnvnv">
+            <ul>
+                <li><a class="nvaas" href="form.html"><i class="fas fa-home fa-2x fa-lg asdasd"></i> Inicio</a></li>
+                <li><a class="nvaas" href="ayuda.html"><i class="fas fa-question-circle fa-2x fa-lg asdasd"></i>Ayuda</a></li>
+                <li><a class="nvaas" href="nosotros.html"><i class="fas fa-book-open fa-2x fa-lg asdasd"></i>Nosotros</a></li>
+            </ul>
+        </div>
+
+    </nav>
+
+    <div class="contenedormaestro">
+
+        <div class="saborespasteles">
+            <h1>Sabores de pasteles</h1>
+            <ul>
+                <li><a class="spl" href=""><img class="img" src="./imgs/fresa.PNG" width="20%" height="20%"></a></li>
+                <li><a class="spl" href=""><img class="img" src="./imgs/redvelvet.PNG" width="20%" height="20%"></a>
+                </li>
+                <li><a class="spl" href=""><img class="img" src="./imgs/chocolate.PNG" width="20%" height="20%"></a>
+                </li>
+            </ul>
+            <ul>
+                <li><label class="ns" for="sabores"> FRESA - Precio $350 </label></li>
+                <li><label class="ns" for="sabores"> RED VELVET - Precio $350 </label></li>
+                <li><label class="ns" for="sabores"> CHOCOLATE - Precio $350 </label></li>
+            </ul>
+            <ul>
+                <li><a class="spl" href=""><img class="img" src="./imgs/coco.PNG" width="20%" height="20%"></a></li>
+                <li><a class="spl" href=""><img class="img" src="./imgs/nuez.PNG" width="20%" height="20%"></a></li>
+                <li><a class="spl" href=""><img class="img" src="./imgs/Zanahoria.PNG" width="20%" height="20%"></a>
+                </li>
+            </ul>
+            <ul>
+                <li><label class="ns2" for="sabores"> COCO - Precio $550 </label></li>
+                <li><label class="ns2" for="sabores"> NUEZ - Precio $350 </label></li>
+                <li><label class="ns2" for="sabores"> ZANAHORIA - Precio $450 </label></li>
+            </ul>
+        </div>
+        <div class="combinarsabores">
+            <h2>Combinar sabores a tu gusto</h2>
+            <p>¡¡Como puedes ver esos son los sabores que tenemos pero puedes combinarlos y crear una combinacion de
+                sabor!!</p>
+
+               <label for="combinacion" class="lblcombina">¿ Que sabores desea combinar ?</label>
+                <select class="textboxstyle" name="formaCombinarsabores">
+                    <option value="default" selected>Seleccione sabores</option>
+                    <option value="Fresa">FRESA - Redvelvet</option>
+                    <option value="Fresa">FRESA - Chocolate</option>
+                    <option value="Fresa">FRESA - Coco</option>
+                    <option value="Fresa">FRESA - Nuez</option>
+                    <option value="Fresa">FRESA - Zanahoria</option>
+                    <option value="redvelvet">RED VELVET - Fresa</option>
+                    <option value="redvelvet">RED VELVET - Chocolate</option> 
+                    <option value="redvelvet">RED VELVET - Coco</option>
+                    <option value="redvelvet">RED VELVET - Nuez</option>
+                    <option value="redvelvet">RED VELVET - Zanahoria</option>
+                    <option value="chocolate">CHOCOLATE - Fresa</option>
+                    <option value="chocolate">CHOCOLATE - Redvelvet</option>
+                    <option value="chocolate">CHOCOLATE - Coco</option>
+                    <option value="chocolate">CHOCOLATE - Nuez</option>
+                    <option value="chocolate">CHOCOLATE - Zanahoria</option>
+                    <option value="coco">COCO - Fresa</option>
+                    <option value="coco">COCO - Redvelvet</option>
+                    <option value="coco">COCO - Chocolate</option>
+                    <option value="coco">COCO - Nuez</option>
+                    <option value="coco">COCO - Zanahoria</option>
+                    <option value="nuez">NUEZ - Fresa</option>
+                    <option value="nuez">NUEZ - Redvelvet</option>
+                    <option value="nuez">NUEZ - Chocolate</option>
+                    <option value="nuez">NUEZ - Coco</option>
+                    <option value="nuez">NUEZ - Zanahoria</option>
+                    <option value="Zanahoria">ZANAHORIA - Fresa</option>
+                    <option value="Zanahoria">ZANAHORIA - Redvelvet</option>
+                    <option value="Zanahoria">ZANAHORIA - Chocolate</option>
+                    <option value="Zanahoria">ZANAHORIA - Coco</option>
+                    <option value="Zanahoria">ZANAHORIA - Nuez</option>
+                </select>
+                <p> Ahora bien para poder ver los adornos que puede tener el pastel da click en siguiente</p>
+
+                <button class="boton" onclick="location.href='adornos.html'">Siguiente</button>
+        </div>
+    </div>
+</body>
+
+</html>

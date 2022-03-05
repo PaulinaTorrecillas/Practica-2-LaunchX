@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <title>Pasteleria Blinks</title>
+</head>
+<body>
+    <nav class="menuNavegacion">
+        <div class="mnvlogo">
+            <a class="nvlogo" href=""><img src="./imgs/logo.png" width="20%" height="20%"></a>
+        </div>
+        <div class="mnvnv">
+            <ul>
+                <li><a class="nvaas" href=""><i class="fas fa-home fa-2x fa-lg asdasd"></i> Inicio</a></li>
+                <li><a class="nvaas" href=""><i class="fas fa-question-circle fa-2x fa-lg asdasd"></i>Ayuda</a></li>
+                <li><a class="nvaas" href=""><i class="fas fa-book-open fa-2x fa-lg asdasd"></i>Nosotros</a></li>
+            </ul>
+        </div>
+
+    </nav>
+
+    <div class="contenedormaestro">
+
+        <div class="saborespasteles">
+            <h1>Adornos para pasteles</h1>
+            <ul>
+                <li><a class="spl" href=""><img class="img" src="./imgs/boda.PNG" width="20%" height="20%"></a></li>
+                <li><a class="spl" href=""><img class="img" src="./imgs/anniversario.PNG" width="20%" height="20%"></a>
+                </li>
+                <li><a class="spl" href=""><img class="img" src="./imgs/banderines.PNG" width="20%" height="20%"></a>
+                </li>
+            </ul>
+            <ul>
+                <li><label class="ns" for="adornos"> BODA - Precio $100 </label></li>
+                <li><label class="ns" for="adornos"> ANNIVERSARIO - Precio $200 </label></li>
+                <li><label class="ns" for="adornod"> BANDERIN - Precio $50 </label></li>
+            </ul>
+            <ul>
+                <li><a class="spl" href=""><img class="img" src="./imgs/cumpleanos.PNG" width="20%" height="20%"></a></li>
+                <li><a class="spl" href=""><img class="img" src="./imgs/globos.PNG" width="20%" height="20%"></a></li>
+                <li><a class="spl" href=""><img class="img" src="./imgs/rosas.PNG" width="20%" height="20%"></a>
+                </li>
+            </ul>
+            <ul>
+                <li><label class="ns2" for="sabores"> CUMPLE - Precio $100 </label></li>
+                <li><label class="ns2" for="sabores"> GLOBOS - Precio $150 </label></li>
+                <li><label class="ns2" for="sabores"> ROSAS - Precio $400 </label></li>
+            </ul>
+        </div>
+        <div class="combinaradornos">
+            <h2>Combinar adornos a tu gusto</h2>
+            <p>¡¡Como puedes ver esos son los adornos que tenemos pero puedes combinarlos y crear una combinacion de
+                adornos!!</p>
+
+               <label for="combinacion" class="lblcombina">¿ Que adornos desea combinar ?</label>
+                <select class="textboxstyle" name="formaCombinaradornos">
+                    <option value="default" selected>Seleccione adornos</option>
+                    <option value="Boda">BODA - Anniversario</option>
+                    <option value="Boda">BODA - Banderin</option>
+                    <option value="Boda">BODA - Cumple</option>
+                    <option value="Boda">BODA - Globos</option>
+                    <option value="Boda">BODA - Rosas</option>
+                    <option value="anniversario">ANNIVERSARIO - Boda</option>
+                    <option value="anniversario">ANNIVERSARIO - Banderin</option>
+                    <option value="anniversario">ANNIVERSARIO - Cumple</option>
+                    <option value="anniversario">ANNIVERSARIO - Globos</option>
+                    <option value="anniversario">ANNIVERSARIO - Rosas</option>
+                    <option value="Banderin">BANDERIN - Boda</option>
+                    <option value="Banderin">BANDERIN - Anniversario</option>
+                    <option value="Banderin">BANDERIN - Cumple</option>
+                    <option value="Banderin">BANDERIN - Globos</option>
+                    <option value="Banderin">BANDERIN - Rosas</option>
+                    <option value="Cumple">CUMPLE - Boda</option>
+                    <option value="Cumple">CUMPLE - Anniversario</option>
+                    <option value="Cumple">CUMPLE - Banderin</option>
+                    <option value="Cumple">CUMPLE - Globos</option>
+                    <option value="Cumple">CUMPLE - Rosas</option>
+                    <option value="Globos">GLOBOS - Boda</option>
+                    <option value="Globos">GLOBOS - Anniversario</option>
+                    <option value="Globos">GLOBOS - Banderin</option>
+                    <option value="Globos">GLOBOS - Cumple</option>
+                    <option value="Globos">GLOBOS - Rosas</option>
+                    <option value="Rosas">ROSAS - Boda</option>
+                    <option value="Rosas">ROSAS - Anniversario</option>
+                    <option value="Rosas">ROSAS - Banderin</option>
+                    <option value="Rosas">ROSAS - Cumple</option>
+                    <option value="Rosas">ROSAS - Globos</option>
+                </select>
+                <p> Ahora bien ya escogiste sabor y adornos, debes de dar clic en siguiente esto te llevara a un formulario para que tu coloques tus datos personales. ¡GRACIAS!</p>
+
+                <button class="boton" onclick="location.href='formulario.html'">Siguiente</button>
+</body>
+</html>

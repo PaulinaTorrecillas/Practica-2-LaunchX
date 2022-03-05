@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <title>Pasteleria Blinks</title>
+
+<body>
+    <nav class="menuNavegacion">
+        <div class="mnvlogo">
+            <a class="nvlogo" href=""><img src="./imgs/logo.png" width="20%" height="20%"></a>
+        </div>
+        <div class="mnvnv">
+            <ul>
+                <li><a class="nvaas" href=""><i class="fas fa-home fa-2x fa-lg asdasd"></i> Inicio</a></li>
+                <li><a class="nvaas" href=""><i class="fas fa-question-circle fa-2x fa-lg asdasd"></i>Ayuda</a></li>
+                <li><a class="nvaas" href=""><i class="fas fa-book-open fa-2x fa-lg asdasd"></i>Nosotros</a></li>
+            </ul>
+        </div>
+
+    </nav>
+    <div class="contenedormaestro">
+
+        <div class="saborespasteles">
+            <form action=""></form>
+            <h1>Introduzca datos del cliente</h1>
+                <table class="datos">
+
+                    <tr>
+                        <td class="tdtxtal"><label for="nombre">Nombre del cliente</label></td>
+                        <td class="tdtxtal2"><input class="textboxstyles" type="text" name="nombre"
+                                placeholder="juan perez" size="20%" required></td>
+                    </tr>
+                    <tr>
+                        <td class="tdtxtal"><label for="telefono">Telefono</label></td>
+                        <td class="tdtxtal2"><input placeholder="6424288633"class="textboxstyles" type="tel" name="telefono" required></td>
+                    </tr>
+                    <tr>
+                        <td class="tdtxtal"><label for="correo">Correo electrónico </label></td>
+                        <td class="tdtxtal2"><input placeholder="juan@gmail.com"class="textboxstyles" type="email" name="correo" required></td>
+                    </tr>
+                    <tr>
+                        <td class="tdtxtal"><label for="pasteldescr">Descripción general del pastel </label></td>
+                        <td class="tdtxtal2"><input placeholder="El pastel de fresa con adorno cumpleanos" class="textboxstyles" type="text" name="pasteldescr" required></td>
+                    </tr>
+
+                    <tr>
+                        <td class="tdtxtal"><label for="sabores">Sabores</label></td>
+                        <td class="tdtxtal2">
+                            <select class="textboxstyles" name="seleccionsabores">
+                                <option value="default" selected>Seleccione sabores</option>
+                                <option value="Fresa">FRESA</option>
+                                <option value="Redvelvet">REDVELVET</option>
+                                <option value="Chocolate">CHOCOLATE</option>
+                                <option value="Coco">COCO</option>
+                                <option value="Nuez">NUEZ</option>
+                                <option value="Zanahoria">ZANAHORIA</option>
+                                <option value="Fresa">FRESA - Redvelvet</option>
+                                <option value="Fresa">FRESA - Chocolate</option>
+                                <option value="Fresa">FRESA - Coco</option>
+                                <option value="Fresa">FRESA - Nuez</option>
+                                <option value="Fresa">FRESA - Zanahoria</option>
+                                <option value="redvelvet">RED VELVET - Fresa</option>
+                                <option value="redvelvet">RED VELVET - Chocolate</option> 
+                                <option value="redvelvet">RED VELVET - Coco</option>
+                                <option value="redvelvet">RED VELVET - Nuez</option>
+                                <option value="redvelvet">RED VELVET - Zanahoria</option>
+                                <option value="chocolate">CHOCOLATE - Fresa</option>
+                                <option value="chocolate">CHOCOLATE - Redvelvet</option>
+                                <option value="chocolate">CHOCOLATE - Coco</option>
+                                <option value="chocolate">CHOCOLATE - Nuez</option>
+                                <option value="chocolate">CHOCOLATE - Zanahoria</option>
+                                <option value="coco">COCO - Fresa</option>
+                                <option value="coco">COCO - Redvelvet</option>
+                                <option value="coco">COCO - Chocolate</option>
+                                <option value="coco">COCO - Nuez</option>
+                                <option value="coco">COCO - Zanahoria</option>
+                                <option value="nuez">NUEZ - Fresa</option>
+                                <option value="nuez">NUEZ - Redvelvet</option>
+                                <option value="nuez">NUEZ - Chocolate</option>
+                                <option value="nuez">NUEZ - Coco</option>
+                                <option value="nuez">NUEZ - Zanahoria</option>
+                                <option value="Zanahoria">ZANAHORIA - Fresa</option>
+                                <option value="Zanahoria">ZANAHORIA - Redvelvet</option>
+                                <option value="Zanahoria">ZANAHORIA - Chocolate</option>
+                                <option value="Zanahoria">ZANAHORIA - Coco</option>
+                                <option value="Zanahoria">ZANAHORIA - Nuez</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tdtxtal"><label for="adornos">Adornos</label></td>
+                        <td class="tdtxtal2">
+                            <select class="textboxstyles" name="seleccionadornos">
+                                <option value="default" selected>Seleccione adornos</option>
+                                <option value="Boda">BODA</option>
+                                <option value="Anniversario">ANNIVERSARIO</option>
+                                <option value="BANDERIN">BANDERIN</option>
+                                <option value="Cumple">CUMPLE</option>
+                                <option value="Globos">GLOBOS</option>
+                                <option value="Rosas">ROSAS</option>
+                                <option value="Rosas">BODA - Anniversario</option>
+                                <option value="Boda">BODA - Banderin</option>
+                                <option value="Boda">BODA - Cumple</option>
+                                <option value="Boda">BODA - Globos</option>
+                                <option value="Boda">BODA - Rosas</option>
+                                <option value="anniversario">ANNIVERSARIO - Boda</option>
+                                <option value="anniversario">ANNIVERSARIO - Banderin</option>
+                                <option value="anniversario">ANNIVERSARIO - Cumple</option>
+                                <option value="anniversario">ANNIVERSARIO - Globos</option>
+                                <option value="anniversario">ANNIVERSARIO - Rosas</option>
+                                <option value="Banderin">BANDERIN - Boda</option>
+                                <option value="Banderin">BANDERIN - Anniversario</option>
+                                <option value="Banderin">BANDERIN - Cumple</option>
+                                <option value="Banderin">BANDERIN - Globos</option>
+                                <option value="Banderin">BANDERIN - Rosas</option>
+                                <option value="Cumple">CUMPLE - Boda</option>
+                                <option value="Cumple">CUMPLE - Anniversario</option>
+                                <option value="Cumple">CUMPLE - Banderin</option>
+                                <option value="Cumple">CUMPLE - Globos</option>
+                                <option value="Cumple">CUMPLE - Rosas</option>
+                                <option value="Globos">GLOBOS - Boda</option>
+                                <option value="Globos">GLOBOS - Anniversario</option>
+                                <option value="Globos">GLOBOS - Banderin</option>
+                                <option value="Globos">GLOBOS - Cumple</option>
+                                <option value="Globos">GLOBOS - Rosas</option>
+                                <option value="Rosas">ROSAS - Boda</option>
+                                <option value="Rosas">ROSAS - Anniversario</option>
+                                <option value="Rosas">ROSAS - Banderin</option>
+                                <option value="Rosas">ROSAS - Cumple</option>
+                                <option value="Rosas">ROSAS - Globos</option>
+                            </select>
+
+                        </table>
+                        <p>Favor de dar clic en Enviar para que sus datos queden guardados</p>
+                        <button class="boton" onclick="location.href='enviodatos.html'">Enviar</button>
+
+                    </div>
+                </div>
+    </head>
+
+    <body>
+
+    </body>
+
+</html>

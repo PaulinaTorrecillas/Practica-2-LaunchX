@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <title>Pasteleria Blinks</title>
+</head>
+
+<body>
+    <nav class="menuNavegacion">
+        <div class="mnvlogo">
+            <a class="nvlogo" href=""><img src="./imgs/logo.png" width="20%" height="20%"></a>
+        </div>
+        <div class="mnvnv">
+            <ul>
+                <li><a class="nvaas" href=""><i class="fas fa-home fa-2x fa-lg asdasd"></i> Inicio</a></li>
+                <li><a class="nvaas" href=""><i class="fas fa-question-circle fa-2x fa-lg asdasd"></i>Ayuda</a></li>
+                <li><a class="nvaas" href=""><i class="fas fa-book-open fa-2x fa-lg asdasd"></i>Nosotros</a></li>
+            </ul>
+        </div>
+
+    </nav>
+    <div class="contenedormaestro">
+
+        <div class="saborespasteles">
+            <form action=""></form>
+            <h1>Pedido #1</h1>
+            <table class="datos">
+
+                <tr>
+                    <td class="tdtxtal"><label for="nombre">Nombre del cliente</label></td>
+                    <td class="tdtxtal2"><input class="textboxstyles" type="text" name="nombre" placeholder="juan perez"
+                            size="20%" required></td>
+                </tr>
+                <tr>
+                    <td class="tdtxtal"><label for="telefono">Telefono</label></td>
+                    <td class="tdtxtal2"><input placeholder="6424288633" class="textboxstyles" type="tel"
+                            name="telefono" required></td>
+                </tr>
+                <tr>
+                    <td class="tdtxtal"><label for="correo">Correo electrónico </label></td>
+                    <td class="tdtxtal2"><input placeholder="juan@gmail.com" class="textboxstyles" type="email"
+                            name="correo" required></td>
+                </tr>
+                <tr>
+                    <td class="tdtxtal"><label for="pasteldescr">Descripción general del pastel </label></td>
+                    <td class="tdtxtal2"><input placeholder="El pastel de fresa con adorno cumpleanos"
+                            class="textboxstyles" type="text" name="pasteldescr" required></td>
+                </tr>
+
+                <tr>
+                    <td class="tdtxtal"><label for="sabores">Sabores</label></td>
+                    <td class="tdtxtal2">
+                        <select class="textboxstyles" name="seleccionsabores">
+                            <option value="Fresa" selected>FRESA</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="tdtxtal"><label for="Adornos">Adornos</label></td>
+                    <td class="tdtxtal2">
+                        <select class="textboxstyles" name="seleccionadornos">
+                            <option value="Cumple" selected>CUMPLE</option>
+                        </select>
+            </table>
+
+            <button class="boton" onclick="location.href='index.html'">Salir</button>
+
+
+        </div>
+    </div>
+
+</body>
+
+</html>
